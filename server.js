@@ -137,7 +137,7 @@ const startServer = async () => {
       res.sendFile(path.join(clientDist, 'index.html'));
     });
   }
-
+ 
   app.listen(port, () => {
     console.log(`Server running on port ${port}`);
   });
