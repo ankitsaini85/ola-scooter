@@ -55,7 +55,8 @@ const runDailyIncomeCredit = async () => {
     let creditedCount = 0;
 
     for (let dayIndex = purchase.creditedDays || 0; dayIndex < maxEligibleDays; dayIndex += 1) {
-      const creditDate = new Date(startsAt.getTime() + dayIndex * MS_PER_DAY);
+      // Day 0 credits on the next calendar day, not the purchase day.
+      const creditDate = new Date(startsAt.getTime() + (dayIndex + 1) * MS_PER_DAY);
       const creditKey = dateKey(creditDate);
 
       if (creditKey > todayKey) {
