@@ -12,6 +12,7 @@ const authRoutes = require('./routes/authRoutes');
 const planRoutes = require('./routes/planRoutes');
 const transactionRoutes = require('./routes/transactionRoutes');
 const adminRoutes = require('./routes/adminRoutes');
+const contactRoutes = require('./routes/contactRoutes');
 const { getPublicConfig } = require('./controllers/configController');
 const bcrypt = require('bcryptjs');
 const { startDailyIncomeScheduler } = require('./jobs/dailyIncomeJob');
@@ -41,6 +42,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/plans', planRoutes);
 app.use('/api/payment', require('./routes/payment'));
 app.use('/api/admin', adminRoutes);
+app.use('/api/contact-messages', contactRoutes);
 app.use('/api/transactions', transactionRoutes);
 
 const seedPlans = async () => {
