@@ -163,3 +163,14 @@ Update Plans
 Delete Plans
 Manage Homepage Data
 
+📊 Default Seed Data
+
+The application automatically provides sample scooter plans on first startup to ensure the homepage has content.
+
+Example:
+
+OLA S1 Basic
+OLA S1 Pro
+
+Admins can modify or remove these plans anytime.
+
