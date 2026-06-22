@@ -64,3 +64,25 @@ Mongoose
 JWT Authentication
 bcryptjs
 
+📂 Project Structure
+ola-ev-scooter/
+│
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── .env
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   ├── services/
+│   │   └── App.jsx
+│   ├── .env
+│   └── vite.config.js
+│
+└── README.md
