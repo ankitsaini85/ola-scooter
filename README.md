@@ -13,3 +13,13 @@ Secure JWT Authentication
 Login & Logout Functionality
 Protected User Routes
 
+🎉 Welcome Popup
+Company instructions displayed after successful login.
+Customizable content through environment variables.
+📱 Mobile-First Responsive UI
+Attractive homepage design
+Responsive image carousel/banner slider
+Modern action buttons
+Investment/earning plan cards
+Bottom navigation for mobile devices
+
