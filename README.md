@@ -147,3 +147,19 @@ Frontend
 cd frontend
 npm run dev
 
+🔑 Admin Access
+
+Admin credentials are managed through environment variables.
+
+Example:
+
+ADMIN_PHONE=9999999999
+ADMIN_PASSWORD=admin123
+
+After login, admin can:
+
+Create Plans
+Update Plans
+Delete Plans
+Manage Homepage Data
+
