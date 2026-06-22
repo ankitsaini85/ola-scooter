@@ -31,3 +31,20 @@ Daily Income
 Total Return
 Validity Period
 
+👨‍💼 Admin Dashboard
+Secure Admin Login
+Add New Plans
+Edit Existing Plans
+Delete Plans
+Manage Application Content
+⚙️ Environment-Based Configuration
+
+All important settings are configurable through .env files:
+
+MongoDB Database URL
+JWT Secret Key
+Company Name
+Telegram/WhatsApp Channel Link
+Customer Service Link
+Banner Image URLs
+Admin Credentials
