@@ -86,3 +86,13 @@ ola-ev-scooter/
 │   └── vite.config.js
 │
 └── README.md
+
+⚡ Installation
+1. Clone Repository
+git clone https://github.com/yourusername/ola-ev-scooter.git
+
+cd ola-ev-scooter
+2. Install Dependencies
+npm install
+npm run install:all
+
