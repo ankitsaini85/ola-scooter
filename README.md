@@ -124,3 +124,14 @@ BANNER_IMAGE_2=https://your-image-url.com
 ADMIN_PHONE=9999999999
 
 ADMIN_PASSWORD=admin123
+
+Frontend Environment
+
+Create:
+
+frontend/.env
+
+Example:
+
+VITE_API_URL=http://localhost:5000/api
+
