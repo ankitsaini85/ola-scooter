@@ -23,3 +23,11 @@ Modern action buttons
 Investment/earning plan cards
 Bottom navigation for mobile devices
 
+💰 Scooter Investment Plans
+View available OLA-EV scooter plans
+Plan details including:
+Investment Amount
+Daily Income
+Total Return
+Validity Period
+
