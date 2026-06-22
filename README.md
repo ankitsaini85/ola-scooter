@@ -192,3 +192,13 @@ Notification System
 Payment Gateway Integration
 Multi-Language Support
 
+📞 Support
+
+For support or business inquiries, update the following environment variables:
+
+CHANNEL_LINK=
+SERVICE_LINK=
+📄 License
+
+This project is developed for educational and business purposes. Customize and deploy according to your requirements.
+
