@@ -135,3 +135,15 @@ Example:
 
 VITE_API_URL=http://localhost:5000/api
 
+
+▶️ Run Project
+
+Development Mode
+npm run dev
+Backend
+cd backend
+npm run dev
+Frontend
+cd frontend
+npm run dev
+
