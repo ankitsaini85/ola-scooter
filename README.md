@@ -48,3 +48,19 @@ Telegram/WhatsApp Channel Link
 Customer Service Link
 Banner Image URLs
 Admin Credentials
+
+🛠️ Technology Stack
+Frontend
+React.js
+Vite
+React Router DOM
+Axios
+CSS / Tailwind CSS (Optional)
+Backend
+Node.js
+Express.js
+MongoDB
+Mongoose
+JWT Authentication
+bcryptjs
+
