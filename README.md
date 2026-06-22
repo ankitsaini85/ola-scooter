@@ -174,3 +174,9 @@ OLA S1 Pro
 
 Admins can modify or remove these plans anytime.
 
+🔒 Security Features
+JWT Authentication
+Password Hashing (bcryptjs)
+Protected Routes
+Secure API Validation
+Environment-Based Secrets
