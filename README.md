@@ -96,3 +96,31 @@ cd ola-ev-scooter
 npm install
 npm run install:all
 
+3. Configure Environment Variables
+Backend Environment
+
+Create:
+
+backend/.env
+
+Example:
+
+PORT=5000
+
+MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
+
+JWT_SECRET=YOUR_SECRET_KEY
+
+COMPANY_NAME=OLA-EV Scooter
+
+CHANNEL_LINK=https://your-channel-link.com
+
+SERVICE_LINK=https://your-service-link.com
+
+BANNER_IMAGE_1=https://your-image-url.com
+
+BANNER_IMAGE_2=https://your-image-url.com
+
+ADMIN_PHONE=9999999999
+
+ADMIN_PASSWORD=admin123
